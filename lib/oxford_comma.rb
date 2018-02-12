@@ -9,7 +9,7 @@ def oxford_comma(array)
     new_array == array.pop
     array_string = new_array.join
     final_string = array_string << last_one
-
+    final_string
 
   end
 end
